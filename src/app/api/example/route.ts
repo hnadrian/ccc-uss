@@ -6,6 +6,6 @@ import { NextResponse } from "next/server";
  * @returns {message: string}
  */
 export async function GET() {
-  await connectDB();
+  // await connectDB();
   return NextResponse.json({ message: "Hello from the API!" });
 }
